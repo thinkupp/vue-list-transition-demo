@@ -101,6 +101,7 @@
           return;
         }
 
+        this.move();
         this.autoMoveTimer = setInterval(() => {
           this.move();
         }, 1000)
